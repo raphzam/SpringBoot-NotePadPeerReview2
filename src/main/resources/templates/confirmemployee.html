@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+<!--    <title>Title</title>-->
+    <title>Confirm Employee</title>
+</head>
+<body>
+<h2>testing</h2>
+
+<!--
+<p th:inline="text">
+     First name is: [[${Employee.firstName}]] <br/>
+     Last name is: [[${Employee.lastName}]] <br/> 
+    Email Address: [[${Employee.emailAddress}]] <br/>
+     Phone Number: [[${Employee.phoneNumber}]] <br/>
+     Address: [[${Employee.address}]] <br/> 
+    City: [[${Employee.city}]] <br/>
+     State: [[${Employee.state}]] <br/> 
+    Zipcode: [[${Employee.zipCode}]] <br/> 
+    </p>
+-->
+
+<p th:inline="text">
+    First name is: [[${employee.firstName}]]<br>
+    Last name is: [[${employee.lastName}]]<br>
+    Email address: [[${employee.emailAddress}]]<br>
+    Phone number: [[${employee.phoneNumber}]]<br>
+    Address: [[${employee.address}]]<br>
+    City: [[${employee.city}]]<br>
+    State: [[${employee.state}]]<br>
+    Zipcode: [[${employee.zipCode}]]<br>
+
+ </p>
+
+</body>
+</html>
