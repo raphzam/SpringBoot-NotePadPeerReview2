@@ -17,7 +17,6 @@ public class HomeControl {
 
     @PostMapping("/employeeform")
     public String loadFromPage(@ModelAttribute Employee employee, Model model){
-//        model.addAttribute("employee", Employee);     //should be instance/variable of employee, not Class
         model.addAttribute("employee", employee);
         return "confirmemployee";
     }
